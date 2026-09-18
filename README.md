@@ -76,15 +76,15 @@ This is the single most important design decision in the project, and the one mo
 | Target account | svc-monitor |
 | MITRE Technique | T1110 (Brute Force) / T1078 (Valid Accounts) |
 
-![Alert document detail showing full forensic evidence](assets/03-alert-document-details.png)
+![Alert document detail showing full forensic evidence](screenshots/03-alert-document-details.png)
 
 **Response:** IP `192.168.50.20` auto-blocked via `iptables` within seconds; confirmed by a failed `ping` from Kali afterward (100% packet loss). Two emails arrived — an early warning (Rule 5758) followed by the confirmed-compromise alert (Rule 40112).
 
-![Two-tier email alerts arriving for the same incident](assets/04-email-alerts-inbox.png)
+![Two-tier email alerts arriving for the same incident](screenshots/04-email-alerts-inbox.png)
 
 **Dashboard overview for this window:**
 
-![Threat Hunting dashboard: 48 alerts, MITRE breakdown](assets/02-threat-hunting-dashboard.png)
+![Threat Hunting dashboard: 48 alerts, MITRE breakdown](screenshots/02-threat-hunting-dashboard.png)
 
 ---
 
@@ -144,7 +144,7 @@ Wazuh's default File Integrity Monitoring configuration does **not** watch `/hom
 
 ## 7. Live Agent & System Status
 
-![Agent active in Wazuh dashboard, alert severity breakdown](assets/01-agent-active-overview.png)
+![Threat Hunting dashboard: 48 alerts, MITRE breakdown](screenshots/02-threat-hunting-dashboard.png)
 
 ---
 

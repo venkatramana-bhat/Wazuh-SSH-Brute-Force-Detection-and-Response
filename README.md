@@ -144,7 +144,7 @@ Wazuh's default File Integrity Monitoring configuration does **not** watch `/hom
 
 ## 7. Live Agent & System Status
 
-![Threat Hunting dashboard: 48 alerts, MITRE breakdown](screenshots/02-threat-hunting-dashboard.png)
+![Agent active in Wazuh dashboard, alert severity breakdown](screenshots/01-agent-active-overview.png)
 
 ---
 
